@@ -1,6 +1,5 @@
 
 
-
 body, .container-fluid {
    height: 100vh !important;
 }
@@ -17,6 +16,7 @@ font-family: "Lato", sans-serif;
   font-size: 32px;
   color: #6B006E;
 }
+
 p{
     font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -52,7 +52,7 @@ font-family: "Lato", sans-serif;
     margin-bottom: 20px;
 }
 
-.form-content{
+.trip-form-content{
     position: relative;
     display: -webkit-box;
     display: -moz-box;
@@ -79,12 +79,12 @@ font-family: "Lato", sans-serif;
     float:right;
 }
 
-.enlace{
+.trip-enlace{
 --bs-link-color-rgba:rgba(5, 109, 255, 1) !important;
     text-decoration: none !important;
 }
 
-.enlace :hover{
+.trip-enlace :hover{
 --bs-link-color-rgba:rgba(107, 0, 110, 1) !important;
     
 }
